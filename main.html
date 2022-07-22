@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mega Mart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="un.jpg" alt="online shopping">
+        </div>
+        <ul>
+            <li class="menu"><a href="#">Home</a></li>
+            <li class="menu"><a href="#">Service</a></li>
+            <li class="menu"><a href="#">About Us</a></li>
+            <li class="menu"><a href="#">Contact Us</a></li>
+            <li><span id="time"></span></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h center">Welcome to Shopping Mart</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, vel eaque! Similique molestias at facilis
+            quasi aperiam aliquam</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam, vel eaque! Similique molestias at </p>
+        <button id="btn">Shop Now</button>
+    </section>
+    <section id="service">
+        <h1 class="h-primary">Our Service</h1>
+        <div class="cont">
+            <div class="container"><a
+                    href="https://www.amazon.in/electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics"
+                    target="_blank"><img
+                        src="https://images.unsplash.com/photo-1565995487495-e2a23f3af2ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bW9iaWxlJTIwYW5kJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+                        alt="Electronic Device">
+                    <h4 class="h-secondary">Electronic Device</h4>
+                    <p>Welcome to the Electronics device section here you get order all latest gadget and accessories in low and your budget</p>
+                </a></div>
+            <div class="container"><a
+                    href="https://www.amazon.in/b?node=6648217031&pf_rd_r=G7ZCS79X7YB5G0DNPZQ7&pf_rd_p=847e03dc-32e6-4b73-b164-807ff4502869&pd_rd_r=bdbad01e-6a29-497c-9b04-743511dfa341&pd_rd_w=vnNLW&pd_rd_wg=8spqp&ref_=pd_gw_unk"
+                    target="_blank"><img
+                        src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xvdGhpbmclMjBzdG9yZXxlbnwwfHwwfHw%3D&w=1000&q=80"
+                        alt="Fashion Corner">
+                    <h4 class="h-secondary">Fashion Corner</h4>
+                    <p>This is the fashion Corner here you see all kind of fashion for both men and women in low cost and matching clothes with thier accessires</p>
+                </a></div>
+            <div class="container"><a
+                    href="https://www.amazon.in/s/ref=nb_sb_noss?url=search-alias%3Dkitchen&field-keywords=&ref=nb_sb_noss&crid=2ZZGSAAKR8QOZ&sprefix=%2Ckitchen%2C246"
+                    target="_blank"><img
+                        src="https://5.imimg.com/data5/GL/AB/GLADMIN-37892088/home-appliances-500x500.jpg"
+                        alt="Home Appliance">
+                    <h4 class="h-secondary">Home Appliance</h4>
+                    <p>Here you can see all kind of appliance which is used is are daily life in home.Here you get your kitchen garden and house decoration things</p>
+                </a></div>
+        </div>
+    </section>
+    <section id="client-sec">
+        <h1 class="h-primary">Our Sponsor</h1>
+        <div id="client">
+            <div class="clients"> <img
+                    src="https://media.istockphoto.com/photos/apple-inc-logo-picture-id458617717?k=20&m=458617717&s=612x612&w=0&h=2PDTc8TWHPY1FahbZmgl-SY90zCi_D9fhurWsYq3FrQ="
+                    alt="Apple"> </div>
+            <div class="clients"><img src="download (1).png" alt="Google"></div>
+            <div class="clients"><img src="download (2).png" alt="Xioami"></div>
+            <div class="clients"><img src="download.png" alt="Windows"></div>
+        </div>
+    </section>
+    <script>
+        function displaytimes() {
+            time = new Date();
+            console.log('time');
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displaytimes, 1000)
+    </script>
+</body>
+
+</html>
